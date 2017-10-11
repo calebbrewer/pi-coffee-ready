@@ -1,0 +1,27 @@
+{
+  "name": "pi-coffee-ready",
+  "version": "1.0.0",
+  "description": "A coffee alert system that sends a Slach notification when coffee is brewed. It's built on Pi.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pi",
+    "zero-w",
+    "coffee",
+    "iot",
+    "smart"
+  ],
+  "author": {
+    "name": "Caleb Brewer",
+    "email": "caleb@calebbrewer.com",
+    "url": "calebbrewer.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "pigpio": "^0.6.1"
+  }
+}
